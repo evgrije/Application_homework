@@ -2,8 +2,6 @@ public class Application {
     private String appCode;
     private String appName;
 
-    private Pipeline pipeline;
-
     private CodebasePipeline codebasePipeline;
 
     private ArtifactPipeline artifactPipeline;
