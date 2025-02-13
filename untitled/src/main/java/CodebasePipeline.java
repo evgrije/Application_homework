@@ -9,9 +9,9 @@ public class CodebasePipeline extends Codebase{
     Codebase codebase1 = new Codebase();
     Codebase codebase2 = new Codebase();
 
-    Codebase[] listOfCodebase = {codebase1, codebase2};
+    //Codebase[] listOfCodebase = {codebase1, codebase2};
 
-    //private List<Codebase> listOfCodebases = List.of(codebase1, codebase2);
+    private List<Codebase> listOfCodebases = List.of(codebase1, codebase2);
 
     public String getCodebasePipelineName() {
         return codebasePipelineName;
@@ -29,13 +29,6 @@ public class CodebasePipeline extends Codebase{
         this.codebaseHasChild = codebaseHasChild;
     }
 
-    public Codebase[] getListOfCodebase() {
-        return listOfCodebase;
-    }
-
-    public void setListOfCodebase(Codebase[] listOfCodebase) {
-        this.listOfCodebase = listOfCodebase;
-    }
 
     public String getScanToolCb() {
         return scanToolCb;

@@ -3,9 +3,12 @@ import java.util.List;
 public class ArtifactPipeline extends Artifact{
     private String artifactPipelineName;
     private boolean artifactHasChild;
-
     private String scanToolArt;
 
+    Artifact artifact1 = new Artifact();
+    Artifact artifact2 = new Artifact();
+
+    private List<Artifact> listOfArtifacts = List.of(artifact1, artifact2);
 
     public String getArtifactPipelineName() {
         return artifactPipelineName;
